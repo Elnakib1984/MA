@@ -2,33 +2,73 @@ body{
   background-color: gold;
 }
 
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  a {
+    flex-direction: column; /* Stack links vertically */
+    gap: 1rem;
+  }
+}
+
 
 a{
   text-align: right;
   text-decoration: none;
   margin: 30px;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
 }
 
 
 a.link-h:hover{
-  background-color: red;
+  background-color: lightgray;
   padding-left: 2px;
-  color: white;
+  color: black;
   
 }
 a.link-a:hover{
-  background-color: red;
+  background-color: lightgray;
   padding-left: 2px;
-  color: white;
+  color: black;
   
 }
 a.link-c:hover{
-  background-color: red;
+  background-color: lightgray;
   padding-left: 2px;
-  color: white;
+  color: black;
 }
 a.link-p:hover{
-  background-color: red;
+  background-color: lightgray;
   padding-left: 2px;
+  color: black;
+}
+
+.welcome{
+
+  text-align: left;
+  text-decoration: double;
   color: white;
+  background-color: gray;
+  padding: 20px 10px;
+  width: auto;
+  height: auto;
+
+}
+
+.homehead{
+
+  color: white;
+  background-color: gray;
+  padding: 20px 2px;
+  margin: 0px;
 }
