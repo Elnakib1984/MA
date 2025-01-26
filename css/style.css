@@ -1,0 +1,15 @@
+body{
+  background-color: gold;
+}
+
+
+a{
+  text-decoration: none;
+  margin: 30px;
+}
+
+
+a:hover{
+  background-color: red;
+  padding: 10px;
+}
