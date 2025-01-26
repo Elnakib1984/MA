@@ -4,6 +4,7 @@ body{
 
 
 a{
+  text-align: right;
   text-decoration: none;
   margin: 30px;
 }
@@ -12,20 +13,22 @@ a{
 a.link-h:hover{
   background-color: red;
   padding-left: 2px;
+  color: white;
   
 }
 a.link-a:hover{
   background-color: red;
   padding-left: 2px;
+  color: white;
   
 }
 a.link-c:hover{
   background-color: red;
   padding-left: 2px;
-  
+  color: white;
 }
 a.link-p:hover{
   background-color: red;
   padding-left: 2px;
-  
+  color: white;
 }
