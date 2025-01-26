@@ -9,7 +9,23 @@ a{
 }
 
 
-a:hover{
+a.link-h:hover{
   background-color: red;
-  padding: 10px;
+  padding-left: 2px;
+  
+}
+a.link-a:hover{
+  background-color: red;
+  padding-left: 2px;
+  
+}
+a.link-c:hover{
+  background-color: red;
+  padding-left: 2px;
+  
+}
+a.link-p:hover{
+  background-color: red;
+  padding-left: 2px;
+  
 }
